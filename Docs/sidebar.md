@@ -1,0 +1,9 @@
+- **User Guide**
+- [Introduction](./)
+- **Links**
+- [Website](https://jgapi.dev)
+- [Guilded](https://guilded.gg/JGAPI)
+- [GitHub](https://github.com/JGAPI)
+- **Statistics**
+- ![GitHub last updated](https://img.shields.io/github/last-commit/JGAPI/JG_API-Docs?label=last%20updated)
+- ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/JGAPI/JG_API-Docs)
