@@ -1,5 +1,6 @@
 - **User Guide**
 - [Introduction](./)
+- [Getting Started](./getting-started)
 - **Links**
 - [Website](https://jgapi.dev)
 - [Guilded](https://guilded.gg/JGAPI)
