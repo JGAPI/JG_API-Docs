@@ -1,6 +1,14 @@
 - **User Guide**
 - [Introduction](./)
 - [Getting Started](./getting-started)
+- **Events**
+- **Library**
+- **ChatMessage**
+- **Doc**
+- **ListItem**
+- **TeamChannel**
+- **TeamMember**
+- **TeamWebhook**
 - **Links**
 - [Website](https://jgapi.dev)
 - [Guilded](https://guilded.gg/JGAPI)
