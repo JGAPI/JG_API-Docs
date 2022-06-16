@@ -1,4 +1,4 @@
-# JG_API Documentation {docsify-ignore-all}
+# JG_API Documentation <!-- {docsify-ignore-all} -->
 ---
 Learn how to develop a Guilded Bot using the JG_API Library!
 
