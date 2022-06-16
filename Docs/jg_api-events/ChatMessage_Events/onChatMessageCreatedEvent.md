@@ -9,7 +9,7 @@ Returns the string id of the server the chat message originated from.
 ### getMessage()
 Returns the created message entity from the event.
 ## Example Usage
- ```
+ ```java
  @Override
  public void onChatMessageCreatedEvent(ChatMessageCreatedEvent event) {
     JG_API jg_api = event.getJGAPI();

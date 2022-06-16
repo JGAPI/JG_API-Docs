@@ -5,7 +5,7 @@ The `onReadyEvent` event is called when `JG_API` has finished loading and is rea
 ### getJGAPI()
 Returns the instance of JG_API that is currently being used.
 ## Example Usage
- ```
+ ```java
  @Override
  public void onReadyEvent(ReadyEvent event) {
     JG_API jg_api = event.getJGAPI();
