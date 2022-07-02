@@ -1,3 +1,4 @@
 - ![Themes](https://docs.jgapi.dev/assets/img/Brightness.svg)
     - <a href="#" data-link-title="Dark">Dark</a>
+    - <a href="#" data-link-title="Light">Light</a>
 - [![Guilded](https://docs.jgapi.dev/assets/img/Guilded.svg)](https://guilded.gg/JGAPI)
