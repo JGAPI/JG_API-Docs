@@ -7,7 +7,6 @@ public class Bot {
     public static void main(String[] args) {
         try {
             jg_api = new JG_API.ClientBuilder()
-                    .setParentServerId("id-here")
                     .setToken("gapi_token-here")
                     .addListenerAdapter(new EventHandler())
                     .build();
