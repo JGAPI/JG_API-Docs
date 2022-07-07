@@ -2,6 +2,7 @@
 - [Introduction](./)
 - [Getting Started](./getting-started)
 - [Events](./events)
+- [Entities](./entities)
 - **Links**
 - [Website](https://jgapi.dev)
 - [Guilded](https://guilded.gg/JGAPI)
