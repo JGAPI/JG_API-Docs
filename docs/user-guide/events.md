@@ -447,3 +447,100 @@ Returns an the Webhook entity from the event.
     Webhook webhook = event.getWebhook();
  }
  ```
+
+ ## onCalendarEventCreatedEvent
+### Description <!-- {docsify-ignore} -->
+The `onCalendarEventCreatedEvent` event is called when a CalendarEvent is created within Guilded.
+### Functions <!-- {docsify-ignore} -->
+#### getJGAPI() <!-- {docsify-ignore} -->
+Returns the instance of JG_API that is currently being used.
+#### getServerId() <!-- {docsify-ignore} -->
+Returns the string id of the server the event originated from.
+#### getCalendarEvent() <!-- {docsify-ignore} -->
+Returns an the CalendarEvent entity from the event.
+### Example Usage <!-- {docsify-ignore} -->
+ ```java
+ @Override
+ public void onCalendarEventCreatedEvent(CalendarEventCreatedEvent event) {
+    JG_API jg_api = event.getJGAPI();
+    String serverId = event.getServerId();
+    CalendarEvent calendarEvent = event.getCalendarEvent();
+ }
+ ```
+ ## onCalendarEventUpdatedEvent
+### Description <!-- {docsify-ignore} -->
+The `onCalendarEventUpdatedEvent` event is called when a CalendarEvent is updated within Guilded.
+### Functions <!-- {docsify-ignore} -->
+#### getJGAPI() <!-- {docsify-ignore} -->
+Returns the instance of JG_API that is currently being used.
+#### getServerId() <!-- {docsify-ignore} -->
+Returns the string id of the server the event originated from.
+#### getCalendarEvent() <!-- {docsify-ignore} -->
+Returns an the CalendarEvent entity from the event.
+### Example Usage <!-- {docsify-ignore} -->
+ ```java
+ @Override
+ public void onCalendarEventUpdatedEvent(CalendarEventUpdatedEvent event) {
+    JG_API jg_api = event.getJGAPI();
+    String serverId = event.getServerId();
+    CalendarEvent calendarEvent = event.getCalendarEvent();
+ }
+ ```
+ ## onCalendarEventDeletedEvent
+### Description <!-- {docsify-ignore} -->
+The `onCalendarEventDeletedEvent` event is called when a CalendarEvent is deleted within Guilded.
+### Functions <!-- {docsify-ignore} -->
+#### getJGAPI() <!-- {docsify-ignore} -->
+Returns the instance of JG_API that is currently being used.
+#### getServerId() <!-- {docsify-ignore} -->
+Returns the string id of the server the event originated from.
+#### getCalendarEvent() <!-- {docsify-ignore} -->
+Returns an the CalendarEvent entity from the event.
+### Example Usage <!-- {docsify-ignore} -->
+ ```java
+ @Override
+ public void onCalendarEventDeletedEvent(CalendarEventDeletedEvent event) {
+    JG_API jg_api = event.getJGAPI();
+    String serverId = event.getServerId();
+    CalendarEvent calendarEvent = event.getCalendarEvent();
+ }
+ ```
+
+ ## onChannelMessageReactionCreatedEvent
+### Description <!-- {docsify-ignore} -->
+The `onChannelMessageReactionCreatedEvent` event is called when a ChannelReaction is added within Guilded.
+### Functions <!-- {docsify-ignore} -->
+#### getJGAPI() <!-- {docsify-ignore} -->
+Returns the instance of JG_API that is currently being used.
+#### getServerId() <!-- {docsify-ignore} -->
+Returns the string id of the server the event originated from.
+#### getChannelReaction() <!-- {docsify-ignore} -->
+Returns an the ChannelReaction entity from the event.
+### Example Usage <!-- {docsify-ignore} -->
+ ```java
+ @Override
+ public void onChannelMessageReactionCreatedEvent(ChannelMessageReactionCreatedEvent event) {
+    JG_API jg_api = event.getJGAPI();
+    String serverId = event.getServerId();
+    ChannelReaction reaction = event.getChannelReaction();
+ }
+ ```
+ ## onChannelMessageReactionDeletedEvent
+### Description <!-- {docsify-ignore} -->
+The `onChannelMessageReactionDeletedEvent` event is called when a ChannelReaction is removed within Guilded.
+### Functions <!-- {docsify-ignore} -->
+#### getJGAPI() <!-- {docsify-ignore} -->
+Returns the instance of JG_API that is currently being used.
+#### getServerId() <!-- {docsify-ignore} -->
+Returns the string id of the server the event originated from.
+#### getChannelReaction() <!-- {docsify-ignore} -->
+Returns an the ChannelReaction entity from the event.
+### Example Usage <!-- {docsify-ignore} -->
+ ```java
+ @Override
+ public void onChannelMessageReactionDeletedEvent(ChannelMessageReactionDeletedEvent event) {
+    JG_API jg_api = event.getJGAPI();
+    String serverId = event.getServerId();
+    ChannelReaction reaction = event.getChannelReaction();
+ }
+ ```
