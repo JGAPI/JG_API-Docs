@@ -2,7 +2,8 @@
 - [Introduction](./)
 - [Getting Started](./getting-started)
 - [Events](./events)
-- [Entities](./entities)
+- [Entities](./calendarevent)
+- [Entities](./calendareventcancellation)
 - **Links**
 - [Website](https://jgapi.dev)
 - [Guilded](https://guilded.gg/JGAPI)
