@@ -2,7 +2,7 @@
 - [Introduction](./)
 - [Getting Started](./getting-started)
 - [Events](./events)
-- Entites
+- Entities
   - [CalendarEvent](./calendarevent)
   - [CalendarEventCancellation](./calendareventcancellation)
 - **Links**
