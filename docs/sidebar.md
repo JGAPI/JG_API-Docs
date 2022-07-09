@@ -3,8 +3,8 @@
 - [Getting Started](./getting-started)
 - [Events](./events)
 - **Entities**
-  - [CalendarEvent](./calendarevent)
-  - [CalendarEventCancellation](./calendareventcancellation)
+  - [CalendarEvent](./CalendarEvent)
+  - [CalendarEventCancellation](./CalendarEventCancellation)
   - [ChannelReaction](./ChannelReaction)
   - [Mentions](./Mentions)
   - [ServerChannel](./ServerChannel)
