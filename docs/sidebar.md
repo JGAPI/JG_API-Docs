@@ -5,6 +5,9 @@
 - **Entities**
   - [CalendarEvent](./calendarevent)
   - [CalendarEventCancellation](./calendareventcancellation)
+  - [ChannelReaction](./ChannelReaction)
+  - [Mentions](./Mentions)
+  - [ServerChannel](./ServerChannel)
 - **Links**
 - [Website](https://jgapi.dev)
 - [Guilded](https://guilded.gg/JGAPI)
