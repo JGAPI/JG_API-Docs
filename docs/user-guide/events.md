@@ -5,7 +5,7 @@ Explain what they can expect here...
 ## onReadyEvent
 ### Description <!-- {docsify-ignore} -->
 The `onReadyEvent` event is called when `JG_API` has finished loading and is ready to be used by code accessing it's API.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 ### Example Usage <!-- {docsify-ignore} -->
@@ -19,7 +19,7 @@ Returns the instance of JG_API that is currently being used.
 ## onChatMessageCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onChatMessageCreatedEvent` event is called when a new ChatMessage has been created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -39,7 +39,7 @@ Returns the ChatMessage entity from the event.
 ## onChatMessageDeletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onChatMessageDeletedEvent` event is called when a ChatMessage has been deleted within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -59,7 +59,7 @@ Returns the deleted ChatMessage entity from the event.
 ## onChatMessageUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onChatMessageUpdateEvent` event is called when a ChatMessage has been updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -79,7 +79,7 @@ Returns the updated ChatMessage entity from the event.
 ## onDocCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onDocCreatedEvent` event is called when a Doc has been created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -98,7 +98,7 @@ Returns the Doc entity from the event.
 ## onDocDeletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onDocDeletedEvent` event is called when a Doc has been deleted within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -117,7 +117,7 @@ Returns the Doc entity from the event.
 ## onDocUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onDocUpdatedEvent` event is called when a Doc has been updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -137,7 +137,7 @@ Returns the Doc entity from the event.
 ## onListItemCompletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onListItemCompletedEvent` event is called when a ListItem has been completed within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -156,7 +156,7 @@ Returns the ListItem entity from the event.
 ## onListItemCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onListItemCreatedEvent` event is called when a new ListItem has been created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -175,7 +175,7 @@ Returns the ListItem entity from the event.
 ## onListItemDeletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onListItemDeletedEvent` event is called when a ListItem has been deleted within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -194,7 +194,7 @@ Returns the ListItem entity from the event.
 ## onListItemUncompletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onListItemUncompletedEvent` event is called when a ListItem has been uncompleted within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -213,7 +213,7 @@ Returns the ListItem entity from the event.
 ## onListItemUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onListItemUpdatedEvent` event is called when a ListItem has been updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -233,7 +233,7 @@ Returns the ListItem entity from the event.
 ## onTeamChannelCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamChannelCreatedEvent` event is called when a new TeamChannel has been created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -252,7 +252,7 @@ Returns the TeamChannel entity from the event.
 ## onTeamChannelDeletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamChannelDeletedEvent` event is called when a TeamChannel has been deleted within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -271,7 +271,7 @@ Returns the TeamChannel entity from the event.
 ## onTeamChannelUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamChannelUpdatedEvent` event is called when a TeamChannel has been updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -291,7 +291,7 @@ Returns the TeamChannel entity from the event.
 ## onTeamMemberBannedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamMemberBannedEvent` event is called when a ServerMemberBan has been created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -310,7 +310,7 @@ Returns the ServerMemberBan entity from the event.
 ## onTeamMemberJoinedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamMemberJoinedEvent` event is called when a ServerMember joins within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -329,7 +329,7 @@ Returns the ServerMember entity from the event.
 ## onTeamMemberRemovedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamMemberRemovedEvent` event is called when a ServerMember is removed within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -354,7 +354,7 @@ Returns if the member leaving was the result of a ban.
 ## onTeamMemberUnbannedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamMemberUnbannedEvent` event is called when a ServerMemberBan has been revoked within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -373,7 +373,7 @@ Returns the ServerMemberBan entity from the event.
 ## onTeamMemberUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamMemberUpdatedEvent` event is called when a ServerMember is updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -392,7 +392,7 @@ Returns an object which contains the user ID and nickname of the ServerMember.
 ## onTeamRolesUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamRolesUpdatedEvent` event is called when a ServerMember has their roles updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -412,7 +412,7 @@ Returns an object which contains the user ID and role IDs the member currently h
 ## onTeamWebhookCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamWebhookCreatedEvent` event is called when a new webhook is created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -431,7 +431,7 @@ Returns an the Webhook entity from the event.
 ## onTeamWebhookUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onTeamWebhookCreatedEvent` event is called when a webhook is updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -451,7 +451,7 @@ Returns an the Webhook entity from the event.
  ## onCalendarEventCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onCalendarEventCreatedEvent` event is called when a CalendarEvent is created within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -470,7 +470,7 @@ Returns an the CalendarEvent entity from the event.
  ## onCalendarEventUpdatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onCalendarEventUpdatedEvent` event is called when a CalendarEvent is updated within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -489,7 +489,7 @@ Returns an the CalendarEvent entity from the event.
  ## onCalendarEventDeletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onCalendarEventDeletedEvent` event is called when a CalendarEvent is deleted within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -509,7 +509,7 @@ Returns an the CalendarEvent entity from the event.
  ## onChannelMessageReactionCreatedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onChannelMessageReactionCreatedEvent` event is called when a ChannelReaction is added within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
@@ -528,7 +528,7 @@ Returns an the ChannelReaction entity from the event.
  ## onChannelMessageReactionDeletedEvent
 ### Description <!-- {docsify-ignore} -->
 The `onChannelMessageReactionDeletedEvent` event is called when a ChannelReaction is removed within Guilded.
-### Functions <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 #### getJGAPI() <!-- {docsify-ignore} -->
 Returns the instance of JG_API that is currently being used.
 #### getServerId() <!-- {docsify-ignore} -->
