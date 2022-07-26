@@ -143,7 +143,7 @@ Returns the user id of who created the entity.
 Returns the server id of the entity.
 #### getParentId(): String 
 Returns the parent id of the entity
-#### getCategoryId(): Interger 
+#### getCategoryId(): Integer 
 Returns the category id of the entity.
 #### getGroupId(): String 
 Returns the group id of the entity.
@@ -166,7 +166,7 @@ Returns the title of the entity. Maximum length: `256`
 Returns the description of the entity. Maximum length: `2048`
 #### getUrl(): String
 Returns the url to linkify the title field. Maximum length: `1024`
-#### getColor(): Interger
+#### getColor(): Integer
 Returns the color of the entity when embed is viewed. Minimum: `0`; Maximum: `16777215`
 #### getFooter(): EmbedFooter 
 Returns the small section at the bottom of the entity.
